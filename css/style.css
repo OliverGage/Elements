@@ -1,0 +1,167 @@
+
+
+html, body {
+  height: 100%;
+    font-family: 'Chewy', cursive;
+}
+
+body.home{
+  background: url(../images/background.png)50% 50%/cover;
+}
+
+body.carbon{
+  background: url(../images/background2.png)50% 50%/cover;
+    background-repeat: no-repeat;
+    background-color: #ABABAB;
+}
+
+
+#section1 {
+    height: 35%; 
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8em;
+    color:#77BB53; 
+}
+
+
+#section3 {
+    height: 15%; 
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8em;
+    color: dimgray;
+    padding-top: 3em;
+}
+
+.homeicon {
+   max-height: 70px;
+    float: left;
+}
+
+
+
+h4 {
+    text-align: center;
+    color: #505050;
+    font-size: 1.4em;
+    line-height: 1em;
+}
+
+h5 {
+    text-align: center;
+    padding-top: em;
+    color: #505050;
+    font-size: 1.8em;
+    padding-top: 1em;
+}
+
+h6 {
+    text-align: center;
+    color: #505050;
+    font-size: 1.8em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+p {
+    text-align: center;
+    color: #505050;
+}
+
+
+
+.characters{
+    max-width: 26%;
+    height: auto;
+    width: auto\9; /* ie8 */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1.5em;
+    padding-bottom: 6em
+}
+
+.bottomimg{
+    max-width: 20%;
+    height: auto;
+    width: auto\9; /* ie8 */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.classimg{
+     max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1.5em;
+    padding-bottom: 6em
+    
+}
+
+.order {
+  position:inherit;
+  text-align:center;
+  color: #594101;
+  -webkit-animation: bounce .3s infinite alternate;
+  -moz-animation: bounce .3s infinite alternate;
+  animation: bounce .3s infinite alternate;
+}
+
+
+
+
+
+/** HOME WRAPPER **/
+	
+.flexwrapper {
+  margin-left: 1em;
+}
+
+.flexwrapper > section {
+	float: left;
+	width: 20%; /* width */
+	
+  box-sizing: border-box;
+
+}
+
+.flexwrapper > section:nth-child(1); }
+.flexwrapper > section:nth-child(2); }
+.flexwrapper > section:nth-child(3); }
+.flexwrapper > section:nth-child(4); }
+.flexwrapper > section:nth-child(5); }
+/**--------------------------------**/
+
+@-webkit-keyframes bounce {
+  to { -webkit-transform: scale(1.2); }
+}
+@-moz-keyframes bounce {
+  to { -moz-transform: scale(1.2); }
+}
+@keyframes bounce {
+  to { transform: scale(1.2); }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
